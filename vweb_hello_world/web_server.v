@@ -2,7 +2,6 @@ module main
 
 import vweb
 
-
 struct App {
 	vweb.Context
 }
@@ -14,4 +13,3 @@ fn main() {
 pub fn (mut app App) index() vweb.Result {
 	return app.text('Hello world from vweb!')
 }
-
