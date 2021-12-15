@@ -1,0 +1,9 @@
+# Binaries for programs and plugins
+main
+vex_simple_1
+*.exe
+*.exe~
+*.so
+*.dylib
+*.dll
+vls.log
